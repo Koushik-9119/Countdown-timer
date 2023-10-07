@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #edeaff;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+.stopwatch {
+  display: flex;
+  background: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  box-shadow: rgba(2,188,213,255) 0px 3px 8px;
+  border-radius: 5px;
+}
+.stopwatch-img {
+  width: 285px;
+  height: 160px;
+  background-image: url("img/BG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.stopwatch-img .timer {
+  position: absolute;
+  top: 29%;
+  left: 37%;
+  rotate: -3deg;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+.stopwatch-img .start {
+  position: absolute;
+  top: 66%;
+  left: 34%;
+  rotate: -3deg;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fff;
+}
+.btn{
+  margin-top: 20px;
+}
+.btn img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: 250ms ease-in;
+  margin-right: 10px;
+}
+

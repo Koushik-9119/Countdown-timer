@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown-timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stopwatch">
+        <div class="stopwatch-img">
+            <p id="displayTime" class="timer">00:00:00</p>
+            <p class="start" onclick="watchStart()">START</p>
+        </div>
+        <div class="btn">
+            <img src="img/pause.webp" onclick="watchStop()"alt="">
+            <img src="img/restart.png" onclick="watchReset()" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
